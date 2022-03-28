@@ -1,7 +1,7 @@
 /*
 Solicitar a entrada de 2 números inteiros
-a saída deverá mostrar o resultado de
-todos os operadores relacionais
+a saída deverá mostrar os números digitados e
+o resultado de todos os operadores relacionais
 */
 var num1,num2,res;
 num1=prompt("Digite um número");
