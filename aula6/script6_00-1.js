@@ -10,6 +10,6 @@ x=[10,37,58,10,2,17];
 //document.getElementById("dv1").innerHTML=i;
 document.querySelector("#dv1").innerHTML=i;
 document.querySelector(".teste").innerHTML=x;
-document.querySelector("h1").innerHTML+=", Será que<br> funciona?";
+document.querySelector("h1").innerHTML+=", Será que<br>funciona?";
 
 //document.write(x);
