@@ -4,9 +4,10 @@ num[0]=120;
 num[1]=200;
 num[2]=2020;
 var nome=new Array("Jose","Paula","Carla");
+
 document.querySelector("#dv1").innerHTML=nota+"<br>"+num;
 document.querySelector(".teste").innerHTML=nome;
-
+document.querySelector("h1").innerHTML=nome[1];
 /*
 a saída da var nota e num -> #dv1
 a saída de nome -> .teste
