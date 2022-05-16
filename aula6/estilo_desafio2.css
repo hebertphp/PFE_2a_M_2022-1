@@ -2,6 +2,7 @@
     width: 500px;
     border: 1px solid blue;
     margin:0 auto;
+    border-collapse: collapse;
 }
 
 td,th{
