@@ -1,8 +1,12 @@
 #tb1{
     width: 500px;
     border: 1px solid blue;
+    margin:0 auto;
 }
 
 td,th{
     border: 1px solid blue;
+}
+td{
+    text-align: center;
 }
