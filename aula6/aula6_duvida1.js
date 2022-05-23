@@ -1,5 +1,11 @@
 var uf=["SP","RJ","MG","ES","PR"];
 var imagens=["cach.jpg","flo.jpg"];
-document.querySelector("h2").innerHTML=uf.length;
+document.querySelector("h2").innerHTML+=uf.length;
 document.querySelector("img").src="img/"+imagens[0];
 document.querySelector("#dv1").innerHTML="<img src='img/flo.jpg'>";
+var tag_h2=document.querySelectorAll("h2");
+tag_h2[2].innerHTML="Será que funciona??";
+var class_teste=document.querySelectorAll(".teste");
+class_teste[0].innerHTML="Foi para o teste!!";
+tag_h2[3].style.color="red";
+tag_h2[4].style.color="blue";
