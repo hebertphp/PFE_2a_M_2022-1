@@ -8,4 +8,5 @@ tag_h2[2].innerHTML="Será que funciona??";
 var class_teste=document.querySelectorAll(".teste");
 class_teste[0].innerHTML="Foi para o teste!!";
 tag_h2[3].style.color="red";
-tag_h2[4].style.color="blue";
+tag_h2[4].style.color="#ff0000";
+tag_h2[4].style.fontFamily = "Impact,Charcoal,sans-serif";
