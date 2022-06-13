@@ -14,7 +14,7 @@ function limpar(){
     login.value="";
     senha.value="";
     outrasaida.innerHTML="";
-
+    login.focus();
 }
 boas_vindas("Manuele");//chamada da função, execução da função
 boas_vindas("Anacleto");
