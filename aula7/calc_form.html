@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calc Form</title>
 </head>
 <body>
-    
+    <form>
+        Numero 1<input type="number" name="n1" id="n1"><br>
+        Operação <select name="op" id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br>
+        Numero 2<input type="number" name="n2" id="n2">
+        <button>Calcular</button>
+    </form>
+    <h2>Resultado</h2>
+    <div id="result"></div>
 </body>
 </html>
