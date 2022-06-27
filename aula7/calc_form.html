@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc Form</title>
-    <script src="calcula.js"></script>
+    <script src="calcula.js" defer></script>
 </head>
 <body>
     <form>
-        Numero 1<input type="number" name="n1" id="n1"><br>
+        Numero 1<input type="number" name="n1" id="n1" value="50"><br>
         Operação <select name="op" id="op">
             <option value="+">+</option>
             <option value="-">-</option>
@@ -17,7 +17,7 @@
             <option value="/">/</option>
         </select><br>
         Numero 2<input type="number" name="n2" id="n2">
-        <button>Calcular</button>
+        <button type="button" onclick="calcula()">Calcular</button>
     </form>
     <h2>Resultado</h2>
     <div id="result"></div>
